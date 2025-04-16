@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Oriented Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="courses.html">
+                    <span class="nav-text">Courses</span>
+                </a>
+            </li>
+            <li>
+                <a href="aboutus.html">
+                    <span class="nav-text">About Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="services.html">
+                    <span class="nav-text">Services</span>
+                </a>
+            </li>
+            <li>
+                <a href="placement.html">
+                    <span class="nav-text">Placements</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <span class="nav-text">Contact Us</span>
+                </a>
+            </li>
+            <li>
+                <a href="enquiry.html">
+                    <span class="nav-text">Enquiry</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="filter-sort">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="beginner">Beginner</button>
+        <button class="filter-btn" data-filter="advanced">Advanced</button>
+        <button class="filter-btn" data-filter="popular">Popular</button>        
+    </div>
+
+    <div class="course-grid">
+        <div class="course-card" data-category="popular">
+            <img src="images/UI.png" alt="UI" class="icon">
+            <h3 style="color:blueviolet">UI/UX Course</h3>
+            <span class="badge beginner">Popular</span>
+        </div>
+
+        <div class="course-card" data-category="beginner">
+            <img src="images/web.png" alt="web" class="icon">
+            <h3 style="color:brown"> Web Development</h3>
+            <span class="badge advanced">Beginner</span>
+        </div>
+
+        <div class="course-card" data-category="advanced">
+            <img src="images/cyber.png" alt="cyber" class="icon">
+            <h3 style="color:black"> Cyber Security</h3>
+            <span class="badge popular">Advanced</span>
+        </div>
+    </div>
+    <div class="course-grid">
+        <!-- Popular Courses -->
+        <div class="course-card" data-category="popular">
+            <img src="images/java.png" alt="Java" class="icon">
+            <h3 style="color:blueviolet">Java Course</h3>
+            <span class="badge popular">Popular</span>
+        </div>
+        <div class="course-card" data-category="popular">
+            <img src="images/cloud.png" alt="Cloud Computing" class="icon">
+            <h3 style="color:blueviolet">Cloud Computing</h3>
+            <span class="badge popular">Popular</span>
+        </div>
+    
+        <!-- Beginner Courses -->
+        <div class="course-card" data-category="beginner">
+            <img src="images/python.png" alt="Python" class="icon">
+            <h3 style="color:brown">Python Course</h3>
+            <span class="badge beginner">Beginner</span>
+        </div>
+        <div class="course-card" data-category="beginner">
+            <img src="images/excel.png" alt="Excel Basics" class="icon">
+            <h3 style="color:brown">Excel Basics</h3>
+            <span class="badge beginner">Beginner</span>
+        </div>
+    
+        <!-- Advanced Courses -->
+        <div class="course-card" data-category="advanced">
+            <img src="images/fullStack.png" alt="full stack" class="icon">
+            <h3 style="color:black"> Full Stack Development</h3>
+            <span class="badge advanced">Advanced</span>
+        </div>
+        <div class="course-card" data-category="advanced">
+            <img src="images/data.png" alt="Data Science" class="icon">
+            <h3 style="color:black">Data Science</h3>
+            <span class="badge advanced">Advanced</span>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
